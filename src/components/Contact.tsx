@@ -54,7 +54,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     const promise = async () => {
-      const response = await fetch('http://localhost:5001/api/contact', {
+      const response = await fetch('https://vamshi-portfolio-original.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
