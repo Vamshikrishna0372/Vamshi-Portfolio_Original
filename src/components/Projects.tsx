@@ -7,28 +7,46 @@ import TiltCard from '@/components/ui/TiltCard';
 const projects = [
   {
     title: 'Nexvigil',
-    subtitle: 'AI-Based Object Detection System',
-    period: 'Aug 2025 – Nov 2025',
-    description: 'Advanced AI solution leveraging deep learning for real-time object detection and intelligent security monitoring.',
+    subtitle: 'AI-Powered Intelligent Surveillance System',
+    period: 'Jan 2026 – Present',
+    description:
+      'Full-stack AI surveillance platform for real-time CCTV monitoring and automated incident detection, combining computer vision with a modern web dashboard.',
     highlights: [
-      'Implemented real-time inference using YOLO models and deep learning',
-      'Leveraged pretrained neural networks for high-accuracy classification',
-      'Developed optimized pipelines for low-latency AI-based object detection',
+      'Built a full-stack AI surveillance platform for real-time CCTV monitoring and automated incident detection.',
+      'Integrated YOLOv8 with OpenCV for object detection and rule-based alert generation from video streams.',
+      'Built a FastAPI backend with MongoDB and a React dashboard for real-time alerts and incident monitoring.',
     ],
-    technologies: ['Python', 'YOLO', 'Deep Learning', 'PyTorch', 'Computer Vision'],
-    liveLink: '#',
+    technologies: ['Python', 'YOLOv8', 'OpenCV', 'FastAPI', 'MongoDB', 'React'],
+    liveLink: 'https://nexvigil.vercel.app/',
     githubLink: 'https://github.com/Vamshikrishna0372',
     gradient: 'from-emerald-500 to-teal-600',
+  },
+  {
+    title: 'Eventra',
+    subtitle: 'Campus Event Management Platform',
+    period: 'Mar 2026',
+    description:
+      'Full-stack event management platform that streamlines university event organization, participation, and attendance tracking with role-based access and AI assistance.',
+    highlights: [
+      'Developed a full-stack event platform using React.js, FastAPI (Python), and MongoDB to streamline university event organization.',
+      'Designed role-based access control for admins and students (volunteers) to enable secure and efficient platform access.',
+      'Engineered QR code-based attendance tracking, event registration workflows, volunteer management, and an AI-powered chatbot using Gemini APIs.',
+    ],
+    technologies: ['React.js', 'FastAPI', 'Python', 'MongoDB', 'Gemini API', 'QR Code'],
+    liveLink: 'https://eventra-iota-mocha.vercel.app/',
+    githubLink: 'https://github.com/Vamshikrishna0372',
+    gradient: 'from-violet-500 to-purple-600',
   },
   {
     title: 'FeedbackPulse',
     subtitle: 'Multi-Tenant SaaS Feedback Platform',
     period: 'Dec 2025 – Present',
-    description: 'A scalable multi-company SaaS platform for managing real-time feedback with interactive dashboards and analytics.',
+    description:
+      'A scalable multi-company SaaS platform for managing real-time feedback with interactive dashboards and analytics.',
     highlights: [
-      'Implemented secure JWT authentication and role-based access control',
-      'Developed company-level feedback workflows with structured data management',
-      'Deployed production builds on Vercel (Frontend) and Render (Backend)',
+      'Implemented secure JWT authentication and role-based access control.',
+      'Developed company-level feedback workflows with structured data management.',
+      'Deployed production builds on Vercel (Frontend) and Render (Backend).',
     ],
     technologies: ['React', 'FastAPI', 'Python', 'MongoDB', 'Vercel'],
     liveLink: 'https://feedbackpulse-bice.vercel.app/',
@@ -38,17 +56,18 @@ const projects = [
   {
     title: 'ProLearn',
     subtitle: 'Full Stack E-Learning Platform',
-    period: 'June 2025 – Aug 2025',
-    description: 'A MERN-based e-learning platform supporting instructors and students with live session handling and recorded content workflows.',
+    period: 'Jun 2025 – Aug 2025',
+    description:
+      'A MERN-based e-learning platform supporting instructors and students with live session handling and recorded content workflows.',
     highlights: [
-      'Implemented authentication, course management, and instructor dashboards',
-      'Integrated live session handling and recorded content workflows',
-      'Built responsive UI optimized for desktop and mobile devices',
+      'Implemented authentication, course management, and instructor dashboards.',
+      'Integrated live session handling and recorded content workflows.',
+      'Built responsive UI optimized for desktop and mobile devices.',
     ],
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
     liveLink: 'https://pro-learn-gold.vercel.app/',
     githubLink: 'https://github.com/Vamshikrishna0372',
-    gradient: 'from-violet-500 to-purple-600',
+    gradient: 'from-orange-500 to-rose-600',
   },
 ];
 
@@ -177,7 +196,7 @@ const Projects = () => {
           className="text-center mt-12"
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.6 }}
+          transition={{ delay: 0.8 }}
         >
           <motion.a
             href="https://github.com/Vamshikrishna0372"
