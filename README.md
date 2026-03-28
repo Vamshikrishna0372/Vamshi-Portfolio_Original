@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/og-image.png" width="120" height="120" alt="VK Logo" />
+  <img src="./public/vk-brand.png" width="120" height="120" alt="VK Logo" />
   <h1>👨‍💻 Vamshi Krishna Nagula | AI & Full Stack Developer</h1>
   
   <p>
