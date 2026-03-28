@@ -1,174 +1,109 @@
-# 👨‍💻 Vamshi Krishna Nagula | Portfolio
-
-A modern, interactive **developer portfolio website** showcasing my projects, skills, and experience.
-Built with a focus on **clean UI, smooth animations, and real-world functionality**, including a fully integrated **email system with backend support**.
-
-🚀 **Live Website:** https://vamshi-portfolio-original.vercel.app/
-
----
-
-## ✨ Features
-
-* ⚡ Smooth animations using Framer Motion & GSAP
-* 🎯 Interactive and modern UI design
-* 🧊 3D tilt effects on project cards
-* 🖱️ Custom animated cursor
-* 📱 Fully responsive across all devices
-* 📬 **Contact Form with Email Integration**
-
-  * Sends messages directly to my inbox
-  * Automatically sends a **reply/confirmation email** to the user
-* 🔐 Backend integration for handling form submissions securely
-
----
-
-## 🛠️ Tech Stack
-
-### 🎨 Frontend
-
-* React.js
-* TypeScript
-* Tailwind CSS
-
-### ⚙️ Backend
-
-* Node.js
-* Express.js
-
-### 📬 Email Service
-
-* SendGrid API (for sending & auto-reply emails)
-
-### 🎬 Animations & UI
-
-* Framer Motion
-* GSAP
-* Shadcn UI (Radix UI)
-
-### 🧰 Tools & Libraries
-
-* React Router DOM
-* React Icons
-* Git & GitHub
-
-### 🌐 Deployment
-
-* Vercel
-
----
-
-## 📁 Project Structure
-
-```text id="t7y8u9"
-src/
-├── components/        # UI sections (Hero, About, Projects, Contact)
-│   ├── ui/           # Reusable components
-├── pages/            # Page layouts
-├── assets/           # Images & static files
-├── hooks/            # Custom hooks
-└── App.tsx           # Root component
-
-server/               # Backend (Express + SendGrid)
-├── routes/           # API routes (contact/email)
-├── controllers/      # Logic for handling requests
-├── config/           # API keys & environment setup
-└── server.js         # Backend entry point
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash id="k9l8m7"
-git clone https://github.com/Vamshikrishna0372/Vamshi-Portfolio_Original.git
-```
-
-### 2. Navigate to the project
-
-```bash id="n6b5v4"
-cd Vamshi-Portfolio_Original
-```
-
-### 3. Install dependencies
-
-#### Frontend
-
-```bash id="p3o2i1"
-npm install
-```
-
-#### Backend
-
-```bash id="z1x2c3"
-cd server
-npm install
-```
-
-### 4. Set up environment variables
-
-Create a `.env` file in the `server/` directory:
-
-```env id="env123"
-SENDGRID_API_KEY=your_sendgrid_api_key
-EMAIL_FROM=your_verified_email
-```
-
-### 5. Run the project
-
-#### Start backend
-
-```bash id="run1"
-cd server
-npm start
-```
-
-#### Start frontend
-
-```bash id="run2"
-npm run dev
-```
-
----
-
-## 📬 Contact Feature (How It Works)
-
-* User fills the contact form on the portfolio
-* Request is sent to backend API
-* Backend uses **SendGrid** to:
-
-  * Send the message to my email
-  * Send an automatic **confirmation/reply email** to the user
-
----
-
-## 🎯 Purpose
-
-* Showcase my **projects and skills**
-* Demonstrate **frontend + backend integration**
-* Highlight **real-world features like email systems**
-* Build a strong **developer portfolio presence**
-
----
-
-## 🤝 Connect With Me
-
-* 🌐 Portfolio: https://vamshi-portfolio-original.vercel.app/
-* 💻 GitHub: https://github.com/Vamshikrishna0372
-* 🔗 LinkedIn: https://www.linkedin.com/in/vamshi-krishna-nagula-174b6833a/
-* 📧 Email: [nagulavamshi1453@gmail.com](mailto:nagulavamshi1453@gmail.com)
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
-
----
-
 <div align="center">
-
-✨ Built with passion by **Vamshi Krishna Nagula** ✨
-
+  <img src="./public/og-image.png" width="120" height="120" alt="VK Logo" />
+  <h1>👨‍💻 Vamshi Krishna Nagula | AI & Full Stack Developer</h1>
+  
+  <p>
+    <a href="https://github.com/Vamshikrishna0372"><img src="https://img.shields.io/github/followers/Vamshikrishna0372?style=social" alt="GitHub Followers" /></a>
+    <a href="https://www.linkedin.com/in/vamshi-krishna-nagula-174b6833a/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin" alt="LinkedIn" /></a>
+    <a href="https://vamshi-portfolio-original.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-brightgreen?logo=vercel" alt="Live Demo" /></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License" /></a>
+  </p>
+  
+  <p>A high-performance, interactive developer portfolio showcasing AI-native web solutions and scalable full-stack applications.</p>
 </div>
+
+---
+
+## 🚀 Overview
+
+This portfolio is a culmination of modern web engineering practices, focusing on **premium UI/UX, seamless animations, and robust backend integrations**. It features a production-ready **Email Automation System** that bridges the gap between client interaction and lead management.
+
+### ✨ Key Features
+
+- ⚡ **Turbo-Charged Performance**: Optimized using React + Vite for a blazing-fast experience.
+- 🎨 **Artistic UI**: Fluid animations with **Framer Motion** and **GSAP**.
+- 🧊 **Immersive interactions**: 3D tilt effects and custom cursor tracking.
+- 📬 **Live Contact System**: 
+  - Real-time form validation.
+  - Backend message processing via **Node/Express**.
+  - **SendGrid** integration for direct leads and automated user responses.
+- 📱 **Adaptive Design**: Pixel-perfect responsiveness for mobile, tablet, and ultra-wide screens.
+
+---
+
+## 🛠️ Technology Ecosystem
+
+### 🎨 Frontend Excellence
+![React](https://img.shields.io/badge/React-20232A?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer)
+
+### ⚙️ Backend & Infrastructure
+![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js)
+![Express](https://img.shields.io/badge/Express-000000?logo=express)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel)
+
+### 📬 Automation & Tools
+- **SendGrid API**: Enterprise-grade email delivery.
+- **GSAP**: High-fidelity scroll animations.
+- **Shadcn/UI**: Accessible, Radix-based components.
+
+---
+
+## 📁 Architecture
+
+```text
+src/
+├── components/        # Core UI blocks (Hero, Projects, Contact)
+│   └── ui/           # Atomic Design System components
+├── assets/           # Premium branding & static media
+server/               # Express-based automation engine
+├── routes/           # RESTful API endpoints
+└── config/           # Secure environment orchestration
+```
+
+---
+
+## 🚀 Setup & Deployment
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/Vamshikrishna0372/Vamshi-Portfolio_Original.git
+   cd Vamshi-Portfolio_Original
+   npm install
+   ```
+
+2. **Backend Config**
+   Create a `.env` in `server/`:
+   ```env
+   SENDGRID_API_KEY=your_key
+   EMAIL_FROM=your_verified_email
+   ```
+
+3. **Production Mode**
+   ```bash
+   # Run both servers
+   npm run dev
+   cd server && npm start
+   ```
+
+---
+
+## 🎯 Strategic Purpose
+
+This project is not just a showcase—it's a demonstration of **bridging technical complexity with elegant design**. It proves my ability to handle end-to-end development, from branding assets to secure API infrastructure.
+
+## 🤝 Let's Collaborate
+
+I'm always open to discussing new projects, creative ideas, or opportunities in **AI and Full-Stack development**.
+
+- 🔗 **LinkedIn**: [@Vamshikrishna-Nagula](https://www.linkedin.com/in/vamshi-krishna-nagula-174b6833a/)
+- 📧 **Direct Email**: [nagulavamshi1453@gmail.com](mailto:nagulavamshi1453@gmail.com)
+- 🌐 **Web**: [vamshi-portfolio.vercel.app](https://vamshi-portfolio-original.vercel.app/)
+
+---
+
+<p align="center">
+  Proudly Engineered by <strong>Vamshi Krishna Nagula</strong> &copy; 2026
+</p>
